@@ -1,0 +1,127 @@
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    width: 1200px;
+    height: 69px;
+}
+
+.banner {
+    margin: 10px;
+    font-family: 'Fuggles';
+    font-weight: 800;
+    font-style: oblique;
+    color: lightgrey;
+    padding-right: 10px;
+}
+
+.missions {
+    display: inline-flex;
+    color: darkgrey;
+    text-decoration: underline;
+    margin-right: -550px;
+}
+
+.tea {
+    display: inline-flex;
+    color: darkgrey;
+    text-decoration: underline;
+    margin-right: -550px;
+}
+
+.locations {
+    display: inline-flex;
+    color: darkgrey;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+
+.flex-container2{
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*rgaj73*_ga*MjQ4MjU3NzYuMTY4NzU1MDQ3NQ..*_ga_3LRZM6TM9L*MTY5NTY0NzgwMi41MS4xLjE2OTU2NDc4MDkuNTMuMC4w");
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    margin-top: 5px;
+    border: solid 1px black;
+}
+
+.banner2{
+    background-color: black;
+    color: seashell;
+    margin-top: 300px;
+}
+
+.text2{
+    margin-bottom: 250px;
+    background-color: black;
+    color: seashell;
+}
+
+.flex-container3{
+    text-align: center;
+    width: 1200px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.images4{
+    height: 200px;
+    width: 300px;
+}
+
+.flex-container5{
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*457y64*_ga*MjQ4MjU3NzYuMTY4NzU1MDQ3NQ..*_ga_3LRZM6TM9L*MTY5NTg2MDUyOS41NC4xLjE2OTU4NjA1MzMuNTYuMC4w");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-a{
+    color: seashell;
+    text-align: center;
+    height: 50px;
+    width: 1200px;
+    margin-top: 25px;
+    margin-bottom: -100px; 
+}
+
+.box{
+    border: solid 1px black;
+    background-color: black;
+    color: seashell;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 10%;
+    justify-items: space-around;
+}
+
+.flex-container6{
+    text-align: center;
+    width: 1200px;
+    height: 200px;
+}
+
+footer{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
